@@ -5,5 +5,4 @@ const arrayevenodd = (num) => {
         return "Odd"
     }
 }
-
 console.log(arrayevenodd(4));
