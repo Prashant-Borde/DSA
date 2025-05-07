@@ -6,7 +6,6 @@ const arrayavg = (arr) => {
     }
     return sum/flag;
 }
-
 arr=[3,3,3];
 result=arrayavg(arr);
 console.log(result);
