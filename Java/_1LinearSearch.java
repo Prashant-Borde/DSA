@@ -19,6 +19,11 @@ public static void main(String[]args){
     System.out.print("What you want to Search : ");
     int key=sc.nextInt();
     key=linearsearch(arr,key);
-    System.out.println("Your Key found at : "+ key);
+    if(key==-1){
+        System.out.println("Key Not Found");
+    }else{
+
+        System.out.println("Your Key found at : "+ key);
+    }
 }
 }
