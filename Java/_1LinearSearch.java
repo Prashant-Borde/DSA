@@ -25,5 +25,6 @@ public static void main(String[]args){
 
         System.out.println("Your Key found at : "+ key);
     }
+    sc.close();
 }
 }
