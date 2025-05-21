@@ -1,7 +1,7 @@
 import java.util.*;
 public class _01Triangle {
-    public static void _01Triangle(int num){
-        int counter=1;
+    public static void _01triangle(int num){
+        // int counter=1;
         for(int i=1;i<=num;i++){
             for(int j=1;j<=i;j++){
                 if((i+j)%2==0){
@@ -10,7 +10,7 @@ public class _01Triangle {
                     System.out.print("0");
 
                 }
-                counter++;
+                // counter++;
             }
             System.out.println();
         }
@@ -21,9 +21,10 @@ public class _01Triangle {
         do{
             System.out.print( "Enter a no.");
             int num=sc.nextInt();
-            _01Triangle(num);
+            _01triangle(num);
             System.out.println("Want more then press 1");
             flag=sc.nextInt();
         }while(flag==1);
+        sc.close();
     }
 }
