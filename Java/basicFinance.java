@@ -30,6 +30,6 @@ public class basicFinance {
         System.out.println("tax : "+tax);
         int aftertax = total+tax;
         System.out.println("Aftertax : "+aftertax);
+        sc.close();   
     }
-    
 }
