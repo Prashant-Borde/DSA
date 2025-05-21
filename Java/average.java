@@ -10,6 +10,7 @@ public class average {
         int c = sc.nextInt();
         int avg = a+b+c/3;
         System.out.println("Average of Three no. "+avg);
+        sc.close();
     }
     
 }
