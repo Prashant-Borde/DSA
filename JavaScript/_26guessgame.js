@@ -6,11 +6,11 @@ let randoms = parseInt(Math.floor(Math.random()*num)+1);
 let    guess = (prompt("Enter a number (or type 'quit' to exit):"));
 
 while(randoms !==parseInt(guess) && "quit"!==guess.toLowerCase()){
-    guess = (prompt("Enter a no. : "));
+    // guess = (prompt("Enter a no. : "));
     if(parseInt(guess)>randoms){
-        console.log("Tey some lower values");
+        guess = (prompt("Tey some lower values"));
     }else if(parseInt(guess)<randoms){
-        console.log("try some bigger value");
+        guess = prompt(("try some bigger value"));
     }
 
 }
