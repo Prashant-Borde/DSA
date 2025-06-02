@@ -35,5 +35,6 @@ public class binarySearch {
         System.out.print("value You want to find : ");
         int find=sc.nextInt();
         binarySearch(arr,find);
+        sc.close();
     }
 }

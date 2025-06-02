@@ -28,5 +28,6 @@ public class factorialFun {
         int ncr=nfac/(rfac*n_rfac);
         System.out.println("NCR : "+ncr);
 
+        sc.close();
     }
 }

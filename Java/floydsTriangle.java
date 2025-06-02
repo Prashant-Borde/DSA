@@ -22,5 +22,6 @@ public class floydsTriangle{
             flag=sc.nextInt();
 
         }while(flag==1);
+        sc.close();
     }
 }

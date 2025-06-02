@@ -24,5 +24,6 @@ public class pairsArray {
 
         }
         pairs(arr);
+        sc.close();
     }
 }

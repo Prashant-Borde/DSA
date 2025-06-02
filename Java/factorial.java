@@ -12,6 +12,7 @@ public class factorial {
             System.out.println(fac+"*"+i);
         }
         System.out.println("Factorial = "+fac);
+        sc.close();
     }
     
 }

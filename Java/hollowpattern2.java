@@ -81,6 +81,7 @@ public class hollowpattern2 {
             System.out.println("Want more then Press 1 : ");
             flag= sc.nextInt();
         }while(flag==1);
+        sc.close();
     }
     
 }

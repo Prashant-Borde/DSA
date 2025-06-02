@@ -21,5 +21,6 @@ public static void main(String[] args) {
         System.out.println("Want more then press 1");
         flag=sc.nextInt();
     }while(flag==1);
+    sc.close();
 }
 }

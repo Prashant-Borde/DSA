@@ -31,5 +31,6 @@ public class diamondPattern {
             System.out.print("Press 1 for more : ");
             flag=sc.nextInt();
         }while(flag==1);
+        sc.close();
     }
 }

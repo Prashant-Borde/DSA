@@ -19,5 +19,6 @@ public class invertedhalfpyramidno {
             flag=sc.nextInt();
 
         }while(flag==1);
+        sc.close();
     }
 }

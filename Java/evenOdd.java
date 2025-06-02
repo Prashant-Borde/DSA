@@ -20,6 +20,7 @@ public static void main(String[] args) {
     }
     System.out.println("Sum of Even No. : "+ evenSum);
     System.out.println("Sum of odd No. : "+ oddSum);
+    sc.close();
 
 }
     

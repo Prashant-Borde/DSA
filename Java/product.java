@@ -14,5 +14,6 @@ public class product {
         int b = sc.nextInt();
         int product=productfun(a, b);
         System.out.println("Product : "+product);
+        sc.close();
     }
 }

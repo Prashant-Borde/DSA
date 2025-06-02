@@ -23,6 +23,6 @@ public class printprime {
                 System.out.println("prime no. : "+i);
             }
         }
-
+        sc.close();
     }
 }

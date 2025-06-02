@@ -19,6 +19,6 @@ public class binaryconversion {
         int converted=bnry(num);
         System.out.println("Decimal : "+converted);
 
-
+        sc.close();
     }
 }

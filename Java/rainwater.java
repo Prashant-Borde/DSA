@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class rainwater{
  
-    public static void rainwater(int arr[]){
+    public static void tapingrainwater(int arr[]){
         int left[]=new int[arr.length];
         int right[]=new int[arr.length];
         int min[]=new int[arr.length];
@@ -61,7 +61,7 @@ public class rainwater{
         for(int i=0;i<size;i++){
             arr[i]=sc.nextInt();
         }
-        rainwater(arr);
+        tapingrainwater(arr);
         sc.close();
 
     }

@@ -43,5 +43,6 @@ public class butterflyPattern {
             flag=sc.nextInt();
 
         }while(flag==1);
+        sc.close();
     }
 }

@@ -58,6 +58,6 @@ public class primeNo {
             System.out.println("want to know more prime No. ? Press 1");
             flag=sc.nextInt();
         }while(flag==1);
-        
+        sc.close();
     }
 }

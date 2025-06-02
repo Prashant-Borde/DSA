@@ -13,7 +13,7 @@ public class prefixsum {
 
         int currsum=0;
         int maxsum=Integer.MIN_VALUE;
-        int pregix[]=new int[arr.length];
+        // int pregix[]=new int[arr.length];
         for(int i=0;i<arr.length;i++){
             
           int start=i;
@@ -54,6 +54,6 @@ public class prefixsum {
             arr[i]=sc.nextInt();
         }
         prefixsum(arr);
-
+        sc.close();
     }
 }

@@ -20,6 +20,7 @@ public class sumOfNatural {
             i++;
         }
         System.out.println("Sum of Natural No. : "+sum);
+        sc.close();
     }
     
 }

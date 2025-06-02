@@ -24,6 +24,6 @@ public class kadanas {
             arr[i]=sc.nextInt();
         }
         kadanas(arr);
-
+        sc.close();
     }
 }

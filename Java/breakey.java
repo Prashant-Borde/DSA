@@ -10,6 +10,7 @@ public class breakey {
                 break;
             }
         }while(true);
+        sc.close();
     }
     
 }
