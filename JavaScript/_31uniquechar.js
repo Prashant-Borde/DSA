@@ -8,6 +8,6 @@ function unique(str) {
     return newstr;
 }
 
-let str = "abcdefghabcd";
+let str = "abcdefghabzjkopwfhcd";
 let newstr = unique(str);
 console.log(newstr); // Output: abcdefgh
